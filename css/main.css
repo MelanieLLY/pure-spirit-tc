@@ -1,0 +1,340 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html,
+body,
+button,
+input,
+select,
+textarea {
+  border: 1px solid #d6d6d6;
+  color: #002949;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  background-color: transparent;
+  color: #19afd0;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #1489a2;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a.btn.focus,
+.nav-tabs > li.active > a.btn:focus,
+.nav-tabs > li.active > a.btn:hover,
+.page-contact .acf-form-submit button,
+.btn-primary,
+a.btn-primary {
+  background-color: #19afd0;
+  border: 1px solid #19afd0;
+  border-radius: 8px;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.wp-block-separator.has-background:not(.is-style-dots),
+.site-content hr.is-style-wide {
+  border-bottom-color: #19afd0;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  height: 0;
+  width: 300px;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.wp-block-separator.has-background.is-style-dots,
+.entry-content hr.is-style-dots {
+  border-bottom-color: #eec824;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  height: 0;
+  margin-left: 0;
+  text-align: left;
+  width: 100px;
+}
+
+.container {
+  width: 100%;
+}
+
+.page-container {
+  margin: 0;
+  padding: 30px 60px;
+}
+
+.home img {
+  width: 100%;
+}
+
+.page-contact .acf-form-submit button {
+  padding: 10px;
+}
+
+.page-contact .acf-form-submit button:focus,
+.page-contact .acf-form-submit button:hover,
+.page-contact .acf-form-submit button:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #19afd0;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .open > a {
+  background: none;
+  box-shadow: none;
+  color: #19afd0;
+}
+
+#masthead .navbar-default {
+  border-bottom: 1px solid #999;
+}
+
+@media (max-width: 750px) {
+  .navbar-default {
+    box-shadow: none;
+  }
+
+  html,
+body {
+    border: 0 none;
+  }
+
+  .tablist {
+    background-color: #fff;
+    background-image: none !important;
+    background-repeat: repeat;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .tablist li {
+    width: 100%;
+    height: auto;
+  }
+
+  #services .nav-tabs > li > a,
+#services .nav-tabs > li > a:focus,
+#services .nav-tabs > li > a:hover,
+#services .nav-tabs > .open > a {
+    background-color: #19afd0;
+    background-repeat: repeat;
+    margin: 5px auto;
+  }
+
+  #services .nav-tabs > .active > a,
+#services .nav-tabs > .active > a:focus,
+#services .nav-tabs > .active > a:hover {
+    background-color: rgba(71, 183, 209, 0.6);
+  }
+
+  #services .nav-tabs > li > a:hover {
+    background-color: rgba(71, 183, 209, 0.6);
+  }
+}
+.navbar-default {
+  background: transparent;
+  background-image: none;
+  border: 0 none;
+  color: #111;
+  margin-bottom: 0;
+  padding: 20px 0 20px 20px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a.btn.focus,
+.nav-tabs > li.active > a.btn:focus,
+.nav-tabs > li.active > a.btn:hover,
+.nav-tabs > li > a,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border: 1px solid #19afd0;
+  border-radius: 8px;
+}
+
+#footer-social,
+#footer-navbar {
+  float: left;
+  padding: 12px;
+}
+
+#footer-social a {
+  background: #19afd0;
+  border-radius: 24px;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  height: 48px;
+  padding: 14px 16px;
+  width: 48px;
+}
+
+#footer-copyright {
+  color: #999;
+  float: right;
+  padding: 24px 0 30px;
+  text-align: right;
+}
+
+.site-info {
+  background: #fff;
+  padding: 15px 50px;
+}
+
+.site-branding img {
+  width: 140px;
+}
+
+.navbar-default .navbar-toggle {
+  border: 0 none;
+}
+
+#site-footer {
+  background: #d6d6d6;
+  color: #999;
+}
+#site-footer a,
+#site-footer a:link {
+  font-weight: normal;
+}
+
+.nav {
+  border-bottom: none;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.nav > li {
+  margin: 0 6px;
+}
+
+.nav > li:hover,
+#site-footer .navbar-nav > li > a {
+  background: none transparent;
+  font-weight: normal;
+}
+
+#site-footer .navbar-nav {
+  display: inline-block;
+  float: none;
+  margin: 0 auto;
+}
+
+#footer-contact {
+  text-align: center;
+  padding: 24px;
+  background: #19afd0;
+}
+#footer-contact a,
+#footer-contact a:link {
+  color: #fff;
+  font-size: 18px;
+}
+
+#footer-decoration {
+  text-align: center;
+}
+#footer-decoration svg {
+  fill: #19afd0;
+}
+
+.page-contact .acf-fields > .acf-field,
+.page-contact .acf-form-submit {
+  border-top: 0;
+  padding: 0 0 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar-primary-collapse.in {
+    background: #fff;
+    height: 100%;
+    padding: 70px 10px 0;
+    position: fixed;
+    right: 0;
+    text-align: right;
+    width: 100%;
+    z-index: 2;
+    top: 45px;
+  }
+
+  .toggle-on .site-branding img {
+    left: 10px;
+    max-height: 50px;
+    position: fixed;
+    top: 55px;
+    z-index: 3;
+  }
+
+  .toggle-on #navbar-primary-toggle {
+    background: transparent;
+    position: fixed;
+    right: 10px;
+    top: 55px;
+    z-index: 3;
+  }
+
+  .toggle-on #navbar-primary-toggle .icon-bar {
+    transform: rotate(45deg);
+  }
+
+  .toggle-on #navbar-primary-toggle .icon-bar:nth-child(2) {
+    transform: rotate(-45deg);
+  }
+
+  .toggle-on #navbar-primary-toggle .icon-bar:last-child {
+    background-color: #fff;
+    display: none;
+  }
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+
+}

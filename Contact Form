@@ -1,0 +1,18 @@
+<label>Name (required)</label>
+[text* the-name]
+
+<label>Company</label>
+[text the-company]
+
+<label>Email (required)</label>
+[email* the-email]
+
+<label>Subject</label>
+[text the-subject]
+
+<label>Message</label>
+[textarea the-message]
+
+<label>[checkbox the-news use_label_element label_first default:1 "I would like to receive emails from Locale Solutions with news and updates."]</label>
+
+[submit class:btn class:btn-primary "Submit"]
