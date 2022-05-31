@@ -36,12 +36,22 @@ h4 {
 	font-size: 24px;
 }
 
-.tc-mission .wp-block-columns .wp-block-column {
+.tc-home-mission .wp-block-columns .wp-block-columns .wp-block-column {
 	background: #3798AC;
 	color: #fff;
+	font-size: 16px;
 	padding: 25px;
 }
 
-#content {
+body.home .wp-block-group {
 	padding: 0 10%;
+}
+
+body:not(.home) #content {
+	padding: 0 10%;
+}
+
+.tc-youtube {
+	width:560px;
+	height:315px;
 }
