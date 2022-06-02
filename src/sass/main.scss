@@ -36,6 +36,11 @@ h4 {
 	font-size: 24px;
 }
 
+.tc-home-mission{
+	background:url('https://translationcommons.org/wp-content/uploads/2022/05/mainbannernobright-1-scaled.jpg');
+	color: #fff;
+}
+
 .tc-home-mission .wp-block-columns .wp-block-column {
 	background: #3798AC;
 	color: #fff;
@@ -44,11 +49,11 @@ h4 {
 }
 
 body.home .wp-block-group {
-	padding: 0 10%;
+	padding: 20px 10%;
 }
 
 body:not(.home) #content {
-	padding: 0 10%;
+	padding: 20px 10%;
 }
 
 .tc-youtube {
@@ -62,7 +67,6 @@ body:not(.home) #content {
 
 .tc-home-community h2 {
 	color:		#3798ac;
-	padding:	10px;
 }
 
 .tc-home-community img{
