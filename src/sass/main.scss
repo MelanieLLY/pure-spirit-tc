@@ -36,8 +36,14 @@ h4 {
 	font-size: 24px;
 }
 
-.tc-home-mission{
+.tc-home-mission h2 {
+	font-size: 26px;
+}
+
+.tc-home-mission {
 	background:url('https://translationcommons.org/wp-content/uploads/2022/05/mainbannernobright-1-scaled.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	color: #fff;
 }
 
@@ -59,6 +65,13 @@ body:not(.home) #content {
 .tc-youtube {
 	width:560px;
 	height:315px;
+}
+
+@media screen and (max-width: 600px) {
+	.tc-youtube {
+		width: 280px;
+		height:150px;
+	}
 }
 
 .tc-home-community {
