@@ -12,7 +12,7 @@ select,
 textarea {
 	border: 1px solid $gray-light;
 	color: $gray-medDark;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 }
 
@@ -26,584 +26,91 @@ a {
 	color: $blue;
 	text-decoration: none;
 }
+
 a:hover, a:active {
 	color: darken($color: $blue, $amount: 10%);
 	text-decoration: none;
 }
-a:not([href]):not([tabindex]) {
-	color: inherit;
-	text-decoration: none;
-}
-a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
-	color: inherit;
-	text-decoration: none;
-}
-a:not([href]):not([tabindex]):focus {
-	outline: 0;
-}
-
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a.btn.focus,
-.nav-tabs > li.active > a.btn:focus,
-.nav-tabs > li.active > a.btn:hover,
-.page-contact .acf-form-submit button,
-.btn-primary,
-a.btn-primary {
-	background-color: $blue;
-	border: 1px solid $blue;
-	border-radius: 8px;
-	color: $white;
-}
-
-h1 {
-	text-align: center;
-}
-.wp-block-separator.has-background:not(.is-style-dots),
-.site-content hr.is-style-wide {
-	border-bottom-color: $blue;
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
-	height: 0;
-	width: 300px;
-}
-
-h2 {
-	font-size: 25px;
-	text-align: center;
-}
-
-.wp-block-separator.has-background.is-style-dots,
-.entry-content hr.is-style-dots {
-	border-bottom-color: $yellow;
-	border-bottom-style: solid;
-	border-bottom-width: 3px;
-	height: 0;
-	margin-left: 0;
-	text-align: left;
-	width: 100px;
-}
-
-.container {
-	width: 100%;
-}
-
-.page-container {
-	margin: 0;
-	padding: 5*$spacing 10*$spacing;
-}
-
-.home img {
-	width: 100%;
-}
-
-.page-contact .acf-form-submit button {
-	padding: 10px;
-}
-
-.page-contact .acf-form-submit button:focus,
-.page-contact .acf-form-submit button:hover,
-.page-contact .acf-form-submit button:active,
-.btn-primary:focus,
-.btn-primary:hover,
-.btn-primary:active {
-	background-color: $blue;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .open > a {
-	background: none;
-	box-shadow: none;
-	color: $blue;
-}
-
-#masthead .navbar-default {
-	border-bottom: 1px solid $gray-medLight;
-}
-
-@media (max-width: 750px) {
-	.navbar-default {
-		box-shadow: none;
-	}
-
-	html,
-	body {
-		border: 0 none;
-	}
-
-	.tablist {
-		background-color: $white;
-		background-image: none !important;
-		background-repeat: repeat;
-		padding: 10px 0;
-		width: 100%;
-	}
-
-	.tablist li {
-		width: 100%;
-		height: auto;
-	}
-
-	#services .nav-tabs > li > a,
-	#services .nav-tabs > li > a:focus,
-	#services .nav-tabs > li > a:hover,
-	#services .nav-tabs > .open > a {
-		background-color: $blue;
-		background-repeat: repeat;
-		margin: 5px auto;
-	}
-
-	#services .nav-tabs > .active > a,
-	#services .nav-tabs > .active > a:focus,
-	#services .nav-tabs > .active > a:hover {
-		background-color: $alpha-blue-60;
-	}
-
-	#services .nav-tabs > li > a:hover {
-		background-color: $alpha-blue-60;
-	}
-}
-
-.navbar-default {
-	background: transparent;
-	background-image: none;
-	border: 0 none;
-	color: $gray-dark;
-	margin-bottom: 0;
-	padding: 20px 0 20px 20px;
-}
-
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a.btn.focus,
-.nav-tabs > li.active > a.btn:focus,
-.nav-tabs > li.active > a.btn:hover,
-.nav-tabs > li > a,
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:focus,
-.nav-tabs > li.active > a:hover {
-	border: 1px solid $blue;
-	border-radius: 8px;
-}
-
-#footer-social,
-#footer-navbar {
-	float: left;
-	padding: 2*$spacing;
-}
-
-#footer-social a {
-	background: $blue;
-	border-radius: 4*$spacing;
-	color: white;
-	display: inline-block;
-	font-size: 3*$spacing;
-	height: 8*$spacing;
-	padding: 2*$spacing+2 3*$spacing - 2;
-	width: 8*$spacing;
-}
-
-#footer-copyright {
-	color: $gray-medLight;
-	float: right;
-	padding: 4*$spacing 0 5*$spacing;
-	text-align: right;
-}
-
-.site-info {
-	background: $white;
-	padding: 15px 50px;
-}
-
-.site-branding img {
-	width: 140px;
-}
-
-.navbar-default .navbar-toggle {
-	border: 0 none;
-}
-
-#site-footer {
-	background: $gray-light;
-	color: $gray-medLight;
-	a,
-	a:link {
-		font-weight: normal;
-	}
-}
-
-.nav {
-	border-bottom: none;
-	margin-left: -5px;
-	margin-right: -5px;
-}
-
-.nav > li {
-	margin: 0 $spacing;
-}
-
-.nav > li:hover,
-#site-footer .navbar-nav > li > a {
-	background: none transparent;
-	font-weight: normal;
-}
-
-#site-footer .navbar-nav {
-	display: inline-block;
-	float: none;
-	margin: 0 auto;
-}
-
-#footer-contact {
-	text-align: center;
-	padding: 4*$spacing;
-	background: $blue;
-	a,
-	a:link  {
-		color: $white;
-		font-size: 18px;
-	}
-}
-
-#footer-decoration {
-	text-align: center;
-	svg {
-		fill: $blue;
-	}
-}
-
-.page-contact .acf-fields > .acf-field,
-.page-contact .acf-form-submit {
-	border-top: 0;
-	padding: 0 0 10px;
-}
-
-@media (max-width: 768px) {
-	.navbar-primary-collapse.in {
-		background: $white;
-		height: 100%;
-		padding: 70px 10px 0;
-		position: fixed;
-		right: 0;
-		text-align: right;
-		width: 100%;
-		z-index: 2;
-		top: 45px;
-	}
-
-	.toggle-on .site-branding img {
-		left: 10px;
-		max-height: 50px;
-		position: fixed;
-		top: 55px;
-		z-index: 3;
-	}
-
-	.toggle-on #navbar-primary-toggle {
-		background: transparent;
-		position: fixed;
-		right: 10px;
-		top: 55px;
-		z-index: 3;
-	}
-
-	.toggle-on #navbar-primary-toggle .icon-bar {
-		transform: rotate(45deg);
-	}
-
-	.toggle-on #navbar-primary-toggle .icon-bar:nth-child(2) {
-		transform: rotate(-45deg);
-	}
-
-	.toggle-on #navbar-primary-toggle .icon-bar:last-child {
-		background-color: $white;
-		display: none;
-	}
-
-	.toggle-on #menu-primary {
-		border-top: 1px solid $black;
-	}
-
-	.toggle-on .navbar-toggle .icon-bar + .icon-bar {
-		margin-top: -2px;
-	}
-}
-
-img.aligncenter {
-	display: block;
-	margin: 0 auto;
-}
-
-/* ancient-browser-alert error */
-.ancient-browser-alert {
-	background: $redDark;
-	color: $redOff;
-	display: block;
-	padding: $spacing/2 0;
-	text-align: center;
-}
-
-.ancient-browser-alert a {
-	color: $white;
-	text-decoration: underline;
-}
-
-.page-header-top-right {
-	margin-top: 10px;
-}
-
-.pagination {
-	margin: 0;
-}
-
-.pagination-center {
-	text-align: center;
-}
-.pagination-row {
-	margin-bottom: 20px;
-}
-
-.required {
-	color: $red;
-}
-
-.row-with-vspace {
-	margin-bottom: 3*$spacing;
-}
-
-.site-title {
-	margin-bottom: 0;
-	margin-top: 10px;
-}
-
-.site-title > a {
-	text-decoration: none;
-}
-
-.site-title > div {
-	height: auto;
-	line-height: 16px;
-}
-
-.site-title .site-description {
-	color: $gray-medLight;
-}
-
-.site-title .site-title-heading {
-	margin: 0;
-}
-
-#comments .comment-navigation {
-	margin-bottom: 0;
-}
-
-#comments .comment-navigation-below {
-	margin-bottom: 20px;
-	margin-top: 15px;
-}
-
-#comments .media-list li .media {
-	margin-top: 15px;
-}
-
-#comments .media-list li .media .media-body {
-	border: 1px solid $offwhite-gray;
-	padding: 10px;
-}
-
-#comments .media-list li .media .media-body .comment-author {
-	font-size: 12px;
-	margin-bottom: 10px;
-}
-
-#comments .media-list ul.children {
-	list-style: none;
-	margin-left: 2.5em;
-}
-
-#main-column .wp-video-shortcode {
-	display: block;
-	height: auto;
-	max-width: 100%;
-}
-
-#main-column .attachment .entry-content {
-	margin-bottom: 20px;
-}
-
-#main-column .attachment .entry-content .attachment {
-	text-align: center;
-}
-
-#main-column .attachment .entry-meta {
-	margin-bottom: 20px;
-}
-
-#main-column .post,
-#main-column .page {
-	margin-bottom: 20px;
-	padding: 10px;
-}
-
-#main-column .post .entry-header .entry-meta {
-	color: $gray-medLight;
-}
-
-#main-column .post .entry-header .entry-meta a {
-	color: inherit;
-}
-
-#main-column .post .entry-header .entry-meta .posted-on .updated {
-	display: none;
-}
-
-#main-column .post .entry-meta .categories-icon {
-	cursor: default;
-}
 
-#main-column .post .entry-meta .comments-link a {
-	color: $gray-medDark;
+h4 {
+	font-size: 24px;
 }
 
-#main-column .post .entry-meta .comments-link a .comment-icon .comment-total,
-#main-column .page .entry-meta .comments-link a .comment-icon .comment-total {
-	color: $gray-med;
-	font-size: 12px;
-	margin-left: 5px;
+.tc-home-mission h2 {
+	font-size: 26px;
 }
 
-#main-column .attachment .edit-post-link a,
-#main-column .attachment .entry-meta .edit-post-link a,
-#main-column .post .entry-meta .edit-post-link a,
-#main-column .page .entry-meta .edit-post-link a {
-	color: $gray-medDark;
+.tc-home-mission {
+	background:url('https://translationcommons.org/wp-content/uploads/2022/05/mainbannernobright-1-scaled.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
 }
 
-#main-column .post .entry-meta .tags-icon {
-	cursor: default;
+.tc-home-mission .wp-block-columns .wp-block-column {
+	background: #3798AC;
+	color: #fff;
+	font-size: 24px;
+	padding: 25px;
 }
 
-#main-column .attachment .entry-title,
-#main-column .post .entry-title,
-#main-column .page .entry-title {
-	margin-top: 0;
-	word-wrap: break-word;
+body.home .wp-block-group {
+	padding: 20px 10%;
 }
 
-#sidebar-left .widget,
-#sidebar-right .widget {
-	border: 1px solid $offwhite-gray;
-	margin-bottom: 20px;
-	overflow: hidden;
-	padding: 10px;
+body:not(.home) #content {
+	padding: 20px 10%;
 }
 
-#sidebar-left .widget ul,
-#sidebar-right .widget ul {
-	padding-left: 20px;
+.tc-home-mission .wp-block-columns p {
+	height:11vmax;
 }
 
-#sidebar-left .widget .widget-title,
-#sidebar-right .widget .widget-title {
+.tc-home-mission .wp-block-button__link {
+	background-color: #fff;
+	border-radius: 3px;
+	color:#3798AC;
 	font-size: 16px;
-	margin-top: 0;
+	padding: 5px;
+	text-transform: uppercase;
 }
 
-.navbar-default .navbar-nav li,
-.navbar-default .navbar-nav li a {
-  color: $gray-medDark;
-  font-size: 16px;
-  padding: 0;
+.tc-home-community {
+	background: #d3efef;
 }
 
-.navbar-default .navbar-nav li a:hover,
-.navbar-default .navbar-nav li a.active {
-  color: darken($color: $blue, $amount: 10%);
+.tc-home-community h2 {
+	color:		#3798ac;
 }
 
-.navbar-default .navbar-nav li.menu-item a {
-	padding: 2*$spacing 5*$spacing;
+.tc-home-community img{
+	margin:		50px 0;
 }
 
-.navbar-default .navbar-nav li.btn {
-	margin-left: 3*$spacing;
+.tc-youtube {
+	width:560px;
+	height:315px;
 }
 
-.navbar-default .navbar-nav li.btn:hover {
-	background-color: darken($color: $blue, $amount: 10%);
-	color: $white;
-}
-
-.navbar-default .navbar-nav li.btn a {
-	color: $white;
-	padding: 2*$spacing 5*$spacing;
-}
-
-.btn {
-	border: 2px $blue solid;
-}
-
-.btn-primary {
-	background-color: $blue;
-	border: 0;
-	color: $white;
-}
-
-/* blog
-======================================================================*/
-.blog .col-md-6 {
-	padding-bottom: $spacing;
-	padding-top: $spacing;
-}
-
-.blog h2 {
-	text-align: left;
-	a {
-		color: $black;
+@media screen and (max-width: 600px) {
+	.tc-youtube {
+		width: 280px;
+		height:150px;
 	}
 }
 
-.single .wp-block-image figure {
-	max-width: 60*$spacing;
-	width: 50%;
+footer .navbar-default {
+	background: none;
+	border: 0 none;
 }
 
-/* about us
-======================================================================*/
-#about-us .team .wp-block-group {
-	border: 1px solid $offwhite-gray;
-	box-shadow: 0 0 30px 0 rgba(0,0,0,0.18);
-	margin: 0 10%;;
-	padding: 6*$spacing 10*$spacing;
-	text-align: center;
-	figcaption {
-		font-size: 4*$spacing;
-	}
-	.wp-block-button__link {
-		border-radius: 7*$spacing/2;
-		height: 7*$spacing;
-		padding: $spacing+3 0 0;
-		width: 7*$spacing;
-	}
+footer .navbar-default a {
+	background: none;
+	padding: 0 15px;
 }
 
-#about-us .team figure img {
-	width: 150px;
-}
-
-/* Services: the tabs plugin inserts !important everywhere
-======================================================================*/
-#services #content .wpsm_nav-tabs > li > a {
-	font-size: 18px !important;
-}
-#services #content .wpsm_nav-tabs > li.active,
-#services #content .wpsm_nav-tabs > li.active > a {
-	border: 1px solid $gray-light !important;
-	color: $blue !important;
-}
-#services #content .wpsm_nav-tabs > li > a:active,
-#services #content .wpsm_nav-tabs > li > a:hover {
-	background-color: transparent !important;
-	border: 0 none !important;
-	color: $blue !important;
+footer li {
+	border-left: 1px solid #000;
+	padding: 0 inherit;
 }

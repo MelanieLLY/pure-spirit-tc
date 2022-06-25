@@ -14,7 +14,6 @@ get_header();
   <?php do_action('before'); ?>
   <div id="content" class="row site-content">
     <div class="col-md-12 content-area" id="main-column" role="main">
-      <h1><?php the_title(); ?></h1>
       <?php the_content(); ?>
     </main>
   </div><!--.site-content-->
