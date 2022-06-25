@@ -28,7 +28,7 @@
 				<div class="col-md-12">
 					<nav class="navbar navbar-default" role="navigation">
 						<div class="navbar-header site-branding">
-							<a href="/" alt="Locale Solutions"><img src="/wp-content/themes/pure-spirit-tc/img/logo.gif" alt="Translation Commons" /></a>
+							<a href="/" alt="Locale Solutions"><img src="/wp-content/themes/pure-spirit-tc/img/TC-logo.png" alt="Translation Commons" /></a>
 							<button type="button" class="navbar-toggle" data-toggle="collapse" id="navbar-primary-toggle" data-target=".navbar-primary-collapse" onClick="fnToggle()">
 								<span class="sr-only"><?php _e('Toggle navigation', 'pure-spirit'); ?></span>
 								<span class="icon-bar"></span>
